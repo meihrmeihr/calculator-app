@@ -41,6 +41,7 @@ export default function NameAndToggleBtn() {
                 );
                 setTheme(prev => (prev + 1) % 3 );
               }}
+              aria-label="this a toggle button that doesn't need any text"
             />
           </div>
         </div>

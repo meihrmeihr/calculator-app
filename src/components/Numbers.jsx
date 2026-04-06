@@ -114,6 +114,7 @@ export default function Numbers({ val }) {
       className={`${presets || background || "bg-gray-200 text-[#444b5a] shadow-[#b4a597]"} text-[clamp(1.5rem,4dvw,3rem)] px-1 w-full h-[9dvh] rounded-md shadow-[0px_4px_0px_0px] active:scale-105 cursor-pointer`}
       value={val}
       onClick={calculation}
+      aria-label="this a button that works as blue print for signs and numbers"
     >
       {val}
     </button>
