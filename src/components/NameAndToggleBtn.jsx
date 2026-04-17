@@ -30,6 +30,7 @@ export default function NameAndToggleBtn() {
           >
             <button
               className={`absolute ${dot || "bg-red-500 hover:bg-red-400"} ${toggle} transition-left duration-300 rounded-full cursor-pointer w-4 h-4`}
+              type='button'
               onClick={() => {
                 setIsChangingTheme(true);
                 setToggle((prevGle) =>
